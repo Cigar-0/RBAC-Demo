@@ -1,0 +1,53 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.el-pagination {
+  margin-top: 15px;
+}
+/* .el-input__inner{
+    height: 30px;
+    font-size: 14px;
+} */
+
+.slide-fade-enter-active {
+  transition: all 0.25s linear;
+}
+.slide-fade-leave-active {
+  transition: all 0.25s linear;
+}
+.slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active for below version 2.1.8 */ {
+  transform: translateY(100px);
+  opacity: 0;
+ 
+}
+
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+
+.el-dialog__body {
+  padding: 15px 20px;
+  color: #606266;
+  font-size: 14px;
+  word-break: break-all;
+}
